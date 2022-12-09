@@ -1,0 +1,681 @@
+@font-face {
+  font-family: Flood;
+  src: url("Flood\ Std\ Regular/f1.otf") format("opentype");
+}
+* {
+  box-sizing: border-box;
+  padding: 0%;
+}
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.header {
+  top: 0px;
+  left: 0px;
+
+  /* height: 200px; */
+
+  /* UI Properties */
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  background-color: rgb(11, 68, 117);
+}
+.The_Green_Trees_Initiative {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  height: 200px;
+  justify-content: center;
+  column-gap: 100px;
+}
+.Green_Trees {
+  /* UI Properties */
+  padding-top: 15px;
+  padding-left: 15px;
+  color: #354463;
+  opacity: 1;
+}
+
+.aboutus {
+  letter-spacing: -0.14px;
+  color: #354463;
+  opacity: 1;
+}
+.Donate {
+  top: 128px;
+  left: 32px;
+  width: 312px;
+  height: 45px;
+
+  /* UI Properties */
+
+  background: #c1f7d5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  opacity: 1;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* header block css completed*/
+
+.climate_change {
+  height: 592px;
+
+  /* UI Properties */
+
+  background: transparent url("annie-spratt-135307-unsplash.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 0.76;
+  color: black;
+  background-repeat: no-repeat;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  row-gap: 136px;
+  background-size: 100% 600px;
+}
+
+.climate_change_item {
+  /* UI Properties */
+
+  width: 181px;
+  height: 136px;
+
+  position: relative;
+  top: 10px;
+  left: -60px;
+
+  text-align: left;
+  font: normal normal normal 44px/46px Flood Std;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  font-family: Flood;
+}
+.THE_ISSUE {
+  top: 504px;
+  left: 32px;
+  width: 300px;
+  height: 264px;
+  text-align: center;
+  /* UI Properties */
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+fieldset {
+  top: 544px;
+  left: 64px;
+  width: 270px;
+  height: 150px;
+  /* UI Properties */
+
+  text-align: center;
+  font: normal normal bold 22px/28px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+  opacity: 1;
+  border: #ffffff;
+  padding-left: 5px;
+  padding-top: 35px;
+}
+.legend {
+  background: #0000ff 0% 0% no-repeat padding-box;
+  opacity: 5;
+  padding: 8px;
+  text-align: center;
+  margin-left: 10px;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+/* Take issue block */
+
+.take_action {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ 
+
+  /* UI Properties */
+
+  background: #c1f7d5 0% 0% no-repeat padding-box;
+  opacity: 1;
+  column-gap: 10px;
+  column-gap: 20px;
+  align-content: center;
+  justify-content: center;
+}
+.take-action .values {
+  width: 144px;
+  height: 85px;
+
+  /* UI Properties */
+
+  opacity: 1;
+  /* UI Properties */
+
+  text-align: left;
+  font: normal normal 300 14px/20px Helvetica;
+  letter-spacing: -0.14px;
+  color: #354463;
+  opacity: 1;
+}
+.legend {
+  position: absolute;
+  margin-top: -25px;
+  margin-left: calc(50% - 300px);
+  color: rgb(243, 243, 243);
+  font-size: 20px;
+  text-transform: capitalize;
+  width: 150px;
+  height: 40px;
+  padding-top: 5px;
+  text-align: center;
+  background: #354463 0% 0% no-repeat padding-box;
+  opacity: 5;
+}
+
+.what_to_do {
+  height: 1700px;
+
+  /* UI Properties */
+
+  background: #354463 0% 0% no-repeat padding-box;
+  opacity: 1;
+  width: 300;
+  /* UI Properties */
+
+  text-align: center;
+
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  text-align: center;
+}
+.all_initiatives {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 80px;
+}
+.initiative1 {
+  width: 312px;
+  height: 415px;
+  text-align: center;
+
+  /* UI Properties */
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  color: #354463;
+}
+.initiative2 {
+  width: 312px;
+  height: 415px;
+  text-align: center;
+
+  /* UI Properties */
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  color: #354463;
+}
+.initiative3 {
+  width: 312px;
+  height: 415px;
+  text-align: center;
+
+  /* UI Properties */
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  color: #354463;
+}
+
+.img1 {
+  height: 176px;
+  width: 248px;
+  background-image: url("tree-planting@3x.png");
+  background-size: 176px 248px;
+  position: relative;
+  top: -50px;
+  left: 30px;
+}
+.img1 {
+  height: 176px;
+  width: 248px;
+  background-image: url("tree-planting@3x.png");
+  background-size: 176px 248px;
+  position: relative;
+  top: -50px;
+  left: 30px;
+}
+.img1 {
+  height: 176px;
+  width: 248px;
+  background-image: url("tree-planting@3x.png");
+  background-size: 176px 248px;
+  position: relative;
+  top: -50px;
+  left: 30px;
+}
+.readmore {
+  top: 1784px;
+  left: 112px;
+  width: 152px;
+  height: 40px;
+
+  /* UI Properties */
+
+  background: #c1f7d5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  opacity: 1;
+}
+
+/* hunger issue block */
+
+.hunger_issue {
+  width: 377px;
+  height: 1008px;
+
+  /* UI Properties */
+
+  text-align: left;
+  font: normal normal normal 44px/46px Flood Std;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+
+  font-family: Flood;
+}
+.Climate-change-hunger-issue {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  background-image: url("did-you-know-background@3x.png");
+  background-size: 100% 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.did-u-know {
+  display: flex;
+  margin-top: -600px;
+  margin-left: -150px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  row-gap: 20px;
+  align-content: center;
+  padding-left: 150px;
+  padding-bottom: 30px;
+}
+
+.facts {
+  width: 250px;
+  height: 145px;
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.DID-YOU-KNOW-box {
+  position: relative;
+  width: 160px;
+  height: 40px;
+  top: -150px;
+  left: 70px;
+  /* UI Properties */
+
+  background: #354463 0% 0% no-repeat padding-box;
+  opacity: 1;
+  text-align: center;
+  color: #ededed;
+  padding-top: 5px;
+}
+/* stories block */
+
+.stories {
+  /* UI Properties */
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+  padding-bottom: 30px;
+}
+.pic {
+  top: 3912px;
+  left: 32px;
+  width: 312px;
+  height: 312px;
+
+  /* UI Properties */
+
+  background: transparent url("lady-baby.png") 0% 0% no-repeat padding-box;
+  background-size: 312px 312px;
+  opacity: 1;
+}
+.words {
+  width: 312px;
+  height: 296px;
+
+  /* UI Properties */
+
+  background: #354463 0% 0% no-repeat padding-box;
+  opacity: 1;
+
+  /* UI Properties */
+
+  text-align: center;
+  font: normal normal 22px/28px Helvetica;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.words > .DID-YOU-KNOW-box {
+  top: -620px;
+}
+.take_actions {
+  display: flex;
+  flex-direction: column;
+
+  /* UI Properties */
+
+  background: #354463 0% 0% no-repeat padding-box;
+  opacity: 1;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  padding-bottom: 25px;
+}
+.save_future {
+  text-align: center;
+  font: normal normal normal 44px/46px Flood Std;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  font-family: Flood;
+  padding: 25px;
+}
+.event_photo {
+  top: 5024px;
+  left: 32px;
+  width: 312px;
+  height: 312px;
+
+  /* UI Properties */
+
+  background: transparent url("tree-planting.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+  background-size: 312px 312px;
+}
+.comment {
+  top: 5366px;
+  left: 31px;
+  width: 313px;
+  height: 66px;
+
+  /* UI Properties */
+
+  text-align: center;
+  font: normal normal bold 22px/28px Helvetica;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.summary {
+  width: 313px;
+  height: 208px;
+  opacity: 1;
+  text-align: center;
+  margin-top: 20px;
+  background: transparent
+    url("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi felis, auctor vitae vestibulum vel, consequat eu dolor. Nam pellentesque euismod laoreet. Aliquam sed nisl porttitor nisl laoreet semper nec iaculis nibh. Curabitur in tortor lorem..png")
+    0% 0% no-repeat padding-box;
+  color: #ffffff;
+}
+.event_photo1 {
+  top: 5024px;
+  left: 32px;
+  width: 312px;
+  height: 312px;
+  /* UI Properties */
+  background: transparent url("tree-planting.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+  background-size: 312px 312px;
+}
+
+/* subscribe */
+
+.subscribe {
+  height: 216px;
+
+  /* UI Properties */
+
+  background: #c1f7d5 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.stmt {
+  top: 6444px;
+  left: 32px;
+  width: 322px;
+  height: 78px;
+
+  /* UI Properties */
+
+  text-align: left;
+  font: normal normal bold 22px/28px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+  opacity: 1;
+}
+.subscribe_buttons {
+  width: 500px;
+}
+.email {
+  width: 250px;
+  height: 40px;
+
+  /* UI Properties */
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  opacity: 1;
+  color: #354463;
+
+  /* UI Properties */
+  margin-top: 50px;
+  margin-left: 80px;
+}
+.subsc {
+  width: 112px;
+  height: 40px;
+
+  /* UI Properties */
+
+  background: #354463 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  opacity: 1;
+
+  font: normal normal bold 16px/19px Helvetica;
+  letter-spacing: 0px;
+  color: #c1f7d5;
+  opacity: 1;
+}
+.footer {
+  height: 300px;
+
+  /* UI Properties */
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+  row-gap: 50px;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding-left: 70px;
+  padding-top: 50px;
+}
+.concept {
+  width: 94px;
+  height: 62px;
+
+  /* UI Properties */
+  position: relative;
+  left: -30px;
+  font: normal normal bold 18px/22px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+  opacity: 1;
+  padding-left: -50px;
+}
+.contact_details {
+  width: 126px;
+  height: 100px;
+  text-align: left;
+  font: normal normal normal 11px/13px Helvetica;
+  letter-spacing: 0.44px;
+  color: #354463;
+  /* UI Properties */
+
+  text-align: left;
+  font: normal normal 300 14px/20px Helvetica;
+  letter-spacing: -0.14px;
+  color: #354463;
+  opacity: 1;
+}
+.followus {
+  width: 120px;
+  height: 140px;
+
+  /* UI Properties */
+
+  text-align: left;
+  text-decoration: underline;
+  font: normal normal 300 14px/24px Helvetica;
+  letter-spacing: -0.14px;
+  color: #354463;
+  opacity: 1;
+}
+.learnmore {
+  width: 160px;
+  height: 140px;
+  /* UI Properties */
+
+  text-align: left;
+  text-decoration: underline;
+  font: normal normal 300 14px/24px Helvetica;
+  letter-spacing: -0.14px;
+  color: #354463;
+  opacity: 1;
+}
+.signature {
+  width: 181px;
+  height: 136px;
+
+  /* UI Properties */
+  float: right;
+  text-align: right;
+  font: normal normal normal 44px/46px Flood Std;
+  letter-spacing: 0px;
+  color: #354463;
+  opacity: 1;
+  font-family: Flood;
+  padding-top: 50px;
+}
+
+button {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 5;
+  padding: 8px;
+  text-align: center;
+  margin-left: 10px;
+  color: #354463;
+  font-size: 15px;
+}
+.actionblock{
+
+  width: 120px;
+  height: 40px;
+
+  /* UI Properties */
+
+  background: #354463 0% 0% no-repeat padding-box;
+  opacity: 1;
+  text-align: center;
+  font: normal normal normal 14px/17px Helvetica;
+  letter-spacing: 0.56px;
+  color: #ffffff;
+  opacity: 1;
+  border: 50px;
+  border-color: #0000ff;
+  text-align: center;
+  padding-top: 10px;
+position: relative;
+top: -10px;
+left: -10px;
+}
+.issueblock{
+
+  width: 120px;
+  height: 40px;
+
+  /* UI Properties */
+
+  background: #354463 0% 0% no-repeat padding-box;
+  opacity: 1;
+  text-align: center;
+  font: normal normal normal 14px/17px Helvetica;
+  letter-spacing: 0.56px;
+  color: #ffffff;
+  opacity: 1;
+  border: 50px;
+  border-color: #0000ff;
+  text-align: center;
+  padding-top: 10px;
+position: relative;
+top: -50px;
+left: 10px;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.action{
+  background: #C1F7D5 0% 0% no-repeat padding-box;
+}
+.action > .button{
+  background-color: #0000ff;
+  color: #ededed;
+}
